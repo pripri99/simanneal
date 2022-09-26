@@ -14,7 +14,7 @@ import time
 
 
 def round_figures(x, n):
-    """Returns x rounded to n significant figures."""
+    """Returns x rounded to n significant figures.""" 
     return round(x, int(n - math.ceil(math.log10(abs(x)))))
 
 
